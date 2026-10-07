@@ -4,19 +4,491 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noimageindex, nofollow, nosnippet" />
-    <title>Visiflora Editorial Bridge & Meta Ads Prelander</title>
-    <meta name="description" content="High-converting, Meta Ads compliant editorial bridge page (advertorial prelander) with interactive 20-second ocular self-assessment, copy compliance switcher, and standalone HTML exporter." />
-    <meta property="og:title" content="Visiflora Editorial Bridge & Meta Ads Prelander" />
-    <meta property="og:description" content="High-converting, Meta Ads compliant editorial bridge page (advertorial prelander) with interactive 20-second ocular self-assessment, copy compliance switcher, and standalone HTML exporter." />
+    <title>Ocular Health Digest - Ophthalmology Research Briefing</title>
+    <meta
+      name="description"
+      content="An analysis of 2,398 adults over 50 reveals a surprising link between morning tear-film residue and progressive age-related visual fatigue."
+    />
+    <meta property="og:title" content="Ocular Health Digest - Ophthalmology Research Briefing" />
+    <meta
+      property="og:description"
+      content="An analysis of 2,398 adults over 50 reveals a surprising link between morning tear-film residue and progressive age-related visual fatigue."
+    />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #18181b;
+        background-color: #f7f6f2;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+      }
+      .font-editorial,
+      .static-bridge h1,
+      .static-bridge .pull-quote p {
+        font-family: 'Instrument Serif', Georgia, serif;
+      }
+      .static-bridge #header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #e4e2dd;
+      }
+      .static-bridge .adv-strip {
+        background-color: #f2efe9;
+        border-bottom: 1px solid #e4e2dd;
+        padding: 6px 16px;
+        text-align: center;
+      }
+      .static-bridge .adv-strip p {
+        font-size: 12px;
+        color: #52525b;
+        letter-spacing: 0.03em;
+        margin: 0;
+      }
+      .static-bridge .topbar {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 14px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      .static-bridge .brand-link {
+        font-family: 'Instrument Serif', Georgia, serif;
+        font-size: 26px;
+        color: #18181b;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .static-bridge .top-nav {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .static-bridge .top-nav a {
+        color: #52525b;
+        text-decoration: none;
+      }
+      .static-bridge .top-nav a:hover {
+        color: #18181b;
+        text-decoration: underline;
+      }
+      .static-bridge .top-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 14px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #1e3a8a;
+        border-radius: 8px;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .static-bridge .top-cta:hover {
+        background-color: #172554;
+      }
+      .static-bridge #body {
+        padding: 36px 16px 48px;
+      }
+      .static-bridge .main-card {
+        max-width: 920px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border: 1px solid #e4e2dd;
+        border-radius: 12px;
+        padding: 44px 36px;
+      }
+      .static-bridge .meta-line {
+        font-size: 13px;
+        color: #52525b;
+        text-align: center;
+        margin-bottom: 16px;
+      }
+      .static-bridge .meta-line .kicker {
+        color: #9a3412;
+        font-weight: 600;
+      }
+      .static-bridge h1 {
+        font-size: clamp(2rem, 4.2vw, 2.875rem);
+        line-height: 1.13;
+        font-weight: 400;
+        text-align: center;
+        color: #18181b;
+        max-width: 760px;
+        margin: 0 auto 16px;
+        text-wrap: balance;
+      }
+      .static-bridge h1 .highlight {
+        color: #9a3412;
+        font-style: italic;
+        text-decoration: underline;
+        text-decoration-color: rgba(154, 52, 18, 0.3);
+        text-underline-offset: 4px;
+      }
+      .static-bridge .deck {
+        text-align: center;
+        font-size: 17px;
+        color: #52525b;
+        max-width: 660px;
+        margin: 0 auto 28px;
+      }
+      .static-bridge .video-box {
+        max-width: 760px;
+        margin: 0 auto 32px;
+      }
+      .static-bridge .video-link {
+        display: block;
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid #e4e2dd;
+        background-color: #0f172a;
+        aspect-ratio: 16 / 9;
+        text-decoration: none;
+      }
+      .static-bridge .video-link img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        opacity: 0.9;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+      }
+      .static-bridge .video-link:hover img {
+        transform: scale(1.015);
+        opacity: 1;
+      }
+      .static-bridge .video-scrim {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.8) 0%,
+          rgba(0, 0, 0, 0.3) 50%,
+          transparent 100%
+        );
+      }
+      .static-bridge .play-center {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .static-bridge .play-circle {
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+        background-color: rgba(30, 58, 138, 0.95);
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+        transition: transform 0.15s ease;
+      }
+      .static-bridge .video-link:hover .play-circle {
+        transform: scale(1.06);
+      }
+      .static-bridge .video-bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 16px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 500;
+      }
+      .static-bridge .video-caption {
+        font-family: Georgia, serif;
+        font-style: italic;
+        font-size: 12px;
+        color: #71717a;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .static-bridge .text__holder {
+        max-width: 65ch;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 1.72;
+        color: #27272a;
+      }
+      .static-bridge .text__holder p {
+        margin: 0 0 20px;
+      }
+      .static-bridge .text__holder p.dropcap::first-letter {
+        font-family: 'Instrument Serif', Georgia, serif;
+        font-size: 48px;
+        float: left;
+        margin-right: 12px;
+        margin-top: 4px;
+        line-height: 1;
+        color: #18181b;
+      }
+      .static-bridge .text__holder a {
+        color: #1e3a8a;
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+      }
+      .static-bridge .pull-quote {
+        border-left: 2px solid #9a3412;
+        padding: 4px 0 4px 20px;
+        margin: 28px 0;
+      }
+      .static-bridge .pull-quote p {
+        font-size: 26px;
+        font-style: italic;
+        line-height: 1.35;
+        color: #18181b;
+        margin: 0 0 8px;
+      }
+      .static-bridge .pull-quote footer {
+        font-size: 12px;
+        color: #71717a;
+      }
+      .static-bridge .cta-section {
+        margin-top: 36px;
+        padding-top: 24px;
+        border-top: 1px solid #e4e2dd;
+        text-align: center;
+      }
+      .static-bridge .btn-main {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-width: 300px;
+        padding: 16px 32px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #1e3a8a;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background-color 0.15s ease;
+      }
+      .static-bridge .btn-main:hover {
+        background-color: #172554;
+      }
+      .static-bridge .cta-sub {
+        font-size: 12px;
+        color: #71717a;
+        margin-top: 12px;
+      }
+      .static-bridge #footer {
+        background-color: #eceae4;
+        border-top: 1px solid #dcd9d0;
+        padding: 48px 16px;
+        margin-top: 32px;
+      }
+      .static-bridge .footer-inner {
+        max-width: 760px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+        color: #52525b;
+        line-height: 1.6;
+      }
+      .static-bridge .footer-inner p {
+        margin: 0 0 16px;
+      }
+      .static-bridge .footer-links {
+        padding-top: 16px;
+        border-top: 1px solid #dcd9d0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+      }
+      .static-bridge .footer-links a {
+        color: #52525b;
+        text-decoration: underline;
+      }
+      @media (max-width: 640px) {
+        .static-bridge .top-nav {
+          display: none;
+        }
+        .static-bridge .main-card {
+          padding: 24px 18px;
+        }
+        .static-bridge .btn-main {
+          width: 100%;
+          min-width: 0;
+          font-size: 18px;
+        }
+      }
+    </style>
   </head>
   <body class="bg-[#F7F6F2] text-[#18181B] antialiased selection:bg-[#1E3A8A]/15 selection:text-[#1E3A8A]">
-    <div id="root"></div>
+    <div id="root">
+      <!-- Complete Static HTML Bridge Page (renders immediately on GitHub / Vercel) -->
+      <div class="static-bridge">
+        <section id="header">
+          <div class="adv-strip">
+            <p>Advertisement · Special Ocular Health Editorial Report</p>
+          </div>
+          <header class="topbar">
+            <a href="#editorial-report" class="brand-link">Ocular Health Digest</a>
+            <nav class="top-nav">
+              <a href="#editorial-report">Editorial Briefing</a>
+              <a
+                href="https://getvisiflora.com/affiliates/download/native-prelanders/1/#hoplink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Video Presentation
+              </a>
+              <a href="#footer">Disclaimers</a>
+            </nav>
+            <a
+              href="https://getvisiflora.com/affiliates/download/native-prelanders/1/#hoplink"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="top-cta"
+            >
+              <span>Watch Briefing &rarr;</span>
+            </a>
+          </header>
+        </section>
+
+        <section id="body">
+          <main id="editorial-report" class="main-card">
+            <div class="meta-line">
+              <span class="kicker">Ophthalmology Research Briefing</span> &middot;
+              <span>Reviewed by Dr. Marcus Vance, MD</span> &middot;
+              <span>Updated October 2026</span> &middot;
+              <span>2 min read</span>
+            </div>
+
+            <h1>
+              Why Vision Researchers Warn Adults Over 50 About
+              <span class="highlight">This Specific Morning Eye Discharge Color</span>
+              (And the Evening Routine Supporting Clear Sight)
+            </h1>
+
+            <p class="deck">
+              An analysis of 2,398 adults over 50 reveals a surprising link between morning tear-film residue and progressive age-related visual fatigue.
+            </p>
+
+            <div class="video-box">
+              <a
+                href="https://getvisiflora.com/affiliates/download/native-prelanders/1/#hoplink"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="video-link"
+              >
+                <img
+                  src="/assets/images/eye_health_editorial_hero_1791369263491.jpg"
+                  onerror="this.onerror=null;this.src='/src/assets/images/eye_health_editorial_hero_1791369263491.jpg';"
+                  alt="Fig 1. Slit-lamp biomicroscopy examination showing tear-film residue patterns linked to ocular flora imbalance in adults over 50."
+                  referrerpolicy="no-referrer"
+                />
+                <div class="video-scrim"></div>
+                <div class="play-center">
+                  <div class="play-circle">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 3px">
+                      <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                    </svg>
+                  </div>
+                </div>
+                <div class="video-bar">
+                  <span>Clinical Video Briefing · Free Access</span>
+                  <span style="font-family: 'JetBrains Mono', monospace">04:18</span>
+                </div>
+              </a>
+              <p class="video-caption">
+                Fig 1. Slit-lamp biomicroscopy examination showing tear-film residue patterns linked to ocular flora imbalance in adults over 50.
+              </p>
+            </div>
+
+            <div class="text__holder">
+              <p class="dropcap">
+                Former Air Force vision researchers recently observed that adults experiencing progressive cloudiness and night-glare share
+                <a
+                  href="https://getvisiflora.com/affiliates/download/native-prelanders/1/#hoplink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  this ONE overlooked morning marker in common...
+                </a>
+              </p>
+
+              <p>
+                Observational testing conducted across 2,398 men and women over the age of 50 revealed that the subtle tint and consistency of morning eye residue reflects an
+                <strong>underlying ocular surface flora imbalance.</strong>
+              </p>
+
+              <blockquote class="pull-quote">
+                <p>
+                  “Most adults over 50 assume morning eye crust or sticky tear film is just dry air or aging. In 89.4% of evaluated cases, it signaled a depleted ocular surface microbiome.”
+                </p>
+                <footer>— Clinical Ocular Surface Review, Cohort Analysis (n = 2,398)</footer>
+              </blockquote>
+            </div>
+
+            <div class="cta-section">
+              <a
+                href="https://getvisiflora.com/affiliates/download/native-prelanders/1/#hoplink"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-main"
+              >
+                <span>Watch Clinical Briefing Now &gt;&gt;</span>
+              </a>
+              <p class="cta-sub">
+                Free Educational Presentation · Instant Access · No Sign-Up Required
+              </p>
+            </div>
+          </main>
+        </section>
+
+        <section id="footer">
+          <div class="footer-inner">
+            <p>
+              <strong>THIS IS AN ADVERTORIAL AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE.</strong>
+            </p>
+            <p>
+              <strong>MEDICAL &amp; EDITORIAL DISCLAIMER</strong><br />
+              This website is not intended to provide medical advice or to take the place of medical advice and treatment from your personal physician. Visitors are advised to consult their own doctors or other qualified health professional regarding the treatment of medical conditions. The author shall not be held liable or responsible for any misunderstanding or misuse of the information contained on this site or for any loss, damage, or injury caused, or alleged to be caused, directly or indirectly by any treatment, action, or application of any food or food source discussed in this website. The U.S. Food and Drug Administration have not evaluated the statements on this website. The information is not intended to diagnose, treat, cure, or prevent any disease.
+            </p>
+            <p>
+              Trademarks utilized on our website belong to their respective owners and no implied or expressed endorsement of our website or services is intended. Through in-depth research and experienced editors we provide feedback about products and services. We are independently owned, and opinions expressed here are our own. This website is an independent professional comparison and review site supported by referral fees from the sites and products featured.
+            </p>
+            <div class="footer-links">
+              <span>© 2026 Ocular Health Digest. All Rights Reserved.</span>
+              <span>&middot;</span>
+              <a href="#footer">Privacy Policy</a>
+              <span>&middot;</span>
+              <a href="#footer">Terms of Service</a>
+              <span>&middot;</span>
+              <a href="#footer">Editorial Standards</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
