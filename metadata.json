@@ -1,0 +1,6 @@
+{
+  "name": "Visiflora Editorial Bridge & Meta Ads Prelander",
+  "description": "High-converting, Meta Ads compliant editorial bridge page (advertorial prelander) with interactive 20-second ocular self-assessment, copy compliance switcher, and standalone HTML exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
